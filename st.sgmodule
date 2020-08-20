@@ -1,5 +1,5 @@
-!#name=Script test
-!#desc=script test
+#!name=Script test
+#!desc=script test
 
 [Script]
-cron '* * * * *' script-path=https://raw.githubusercontent.com/filwaline/Surge/master/scripts/test.js
+script1 = type=cron,cronexp="* * * * *",script-path=https://raw.githubusercontent.com/filwaline/Surge/master/scripts/test.js
