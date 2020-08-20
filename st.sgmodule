@@ -1,0 +1,5 @@
+!#name=Script test
+!#desc=script test
+
+[Script]
+cron '* * * * *' https://raw.githubusercontent.com/filwaline/Surge/master/scripts/test.js
