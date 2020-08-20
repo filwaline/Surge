@@ -1,0 +1,5 @@
+#!name=DNS over HTTPS
+#!desc=DoH provided by Cloudflare
+
+[General]
+doh-server = https://cloudflare-dns.com/dns-query
